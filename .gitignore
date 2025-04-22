@@ -64,3 +64,4 @@
 /drush
 /drupal.phar
 /drupal
+.env
