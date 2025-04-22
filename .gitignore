@@ -65,3 +65,4 @@
 /drupal.phar
 /drupal
 .env
+*.gz
