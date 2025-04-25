@@ -43,6 +43,9 @@
         "sort-packages": true
     },
     "extra": {
+        "drainpipe": {
+            "github": ["PantheonReviewApps"]
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
