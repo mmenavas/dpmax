@@ -66,3 +66,7 @@
 /drupal
 .env
 *.gz
+/.twig-cs-fixer.dist.php
+/nightwatch.conf.js
+/phpcs.xml.dist
+/phpstan.neon.dist
