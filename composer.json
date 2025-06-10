@@ -21,8 +21,15 @@
         "drupal/core-recommended": "^11",
         "lullabot/drainpipe": "^3.12"
     },
-    "require-dev": {
-        "drupal/core-dev": "^11"
+    "autoload": {
+        "files": [
+            "vendor/lullabot/drainpipe/scaffold/env/dotenv.php"
+        ]
+    },
+    "autoload-dev": {
+        "files": [
+            "vendor/lullabot/drainpipe/scaffold/env/dotenv.php"
+        ]
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -36,6 +43,7 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "lullabot/drainpipe": true,
+            "lullabot/drainpipe-dev": true,
             "php-http/discovery": true,
             "phpstan/extension-installer": true,
             "tbachert/spi": true
@@ -84,5 +92,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "lullabot/drainpipe-dev": "^3.12"
     }
 }
