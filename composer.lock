@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d74176c9179c38ce364eb1c3ac42a5e9",
+    "content-hash": "b4b74f176f6f5a3a472789f9186068cc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2507,16 +2507,16 @@
         },
         {
             "name": "lullabot/drainpipe",
-            "version": "v3.12.1",
+            "version": "dev-issue-871-allow-pantheon-multidev-site-to-be-cloned-from-test-or-dev-site-if-a-live-site-is-not-set-up-yet",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/drainpipe.git",
-                "reference": "87d3e9ea1fcd2e231b03bbb73da01bd09bfc23a4"
+                "reference": "5167405cf00fc4d4077250634ce39d57fa981f52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/87d3e9ea1fcd2e231b03bbb73da01bd09bfc23a4",
-                "reference": "87d3e9ea1fcd2e231b03bbb73da01bd09bfc23a4",
+                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/5167405cf00fc4d4077250634ce39d57fa981f52",
+                "reference": "5167405cf00fc4d4077250634ce39d57fa981f52",
                 "shasum": ""
             },
             "require": {
@@ -2529,7 +2529,7 @@
                 "vlucas/phpdotenv": "^4|^5"
             },
             "require-dev": {
-                "composer/composer": "^2.8.5",
+                "composer/composer": "^2.8.9",
                 "phpunit/phpunit": "^9.6.21"
             },
             "type": "composer-plugin",
@@ -2561,9 +2561,9 @@
             "description": "An automated build tool to allow projects to have a set standardized operations scripts.",
             "support": {
                 "issues": "https://github.com/Lullabot/drainpipe/issues",
-                "source": "https://github.com/Lullabot/drainpipe/tree/v3.12.1"
+                "source": "https://github.com/Lullabot/drainpipe/tree/issue-871-allow-pantheon-multidev-site-to-be-cloned-from-test-or-dev-site-if-a-live-site-is-not-set-up-yet"
             },
-            "time": "2025-02-19T21:42:34+00:00"
+            "time": "2025-06-16T18:24:20+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -10037,7 +10037,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "lullabot/drainpipe": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {},

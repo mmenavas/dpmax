@@ -20,7 +20,7 @@
         "drupal/core-project-message": "^11",
         "drupal/core-recommended": "^11",
         "drupal/pathauto": "^1.13",
-        "lullabot/drainpipe": "^3.12"
+        "lullabot/drainpipe": "dev-issue-871-allow-pantheon-multidev-site-to-be-cloned-from-test-or-dev-site-if-a-live-site-is-not-set-up-yet"
     },
     "autoload": {
         "files": [
