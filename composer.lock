@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4b74f176f6f5a3a472789f9186068cc",
+    "content-hash": "876dcfc55da2faee47a84a2966742b73",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2511,12 +2511,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/drainpipe.git",
-                "reference": "1c383858a412ece1ab518a9f483ca5c3b43ec702"
+                "reference": "8d0d37aaf9ec920248f5eba7814e19b51a4c8d53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/1c383858a412ece1ab518a9f483ca5c3b43ec702",
-                "reference": "1c383858a412ece1ab518a9f483ca5c3b43ec702",
+                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/8d0d37aaf9ec920248f5eba7814e19b51a4c8d53",
+                "reference": "8d0d37aaf9ec920248f5eba7814e19b51a4c8d53",
                 "shasum": ""
             },
             "require": {
@@ -2563,7 +2563,7 @@
                 "issues": "https://github.com/Lullabot/drainpipe/issues",
                 "source": "https://github.com/Lullabot/drainpipe/tree/issue-871-allow-pantheon-multidev-site-to-be-cloned-from-test-or-dev-site-if-a-live-site-is-not-set-up-yet"
             },
-            "time": "2025-06-18T10:43:08+00:00"
+            "time": "2025-06-30T17:12:34+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -2738,6 +2738,53 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
             },
             "time": "2024-10-08T18:51:32+00:00"
+        },
+        {
+            "name": "pantheon-systems/drupal-integrations",
+            "version": "11.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pantheon-systems/drupal-integrations.git",
+                "reference": "fa9405e979ebe04c2580b3e96ce2b1e4dba9a39c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pantheon-systems/drupal-integrations/zipball/fa9405e979ebe04c2580b3e96ce2b1e4dba9a39c",
+                "reference": "fa9405e979ebe04c2580b3e96ce2b1e4dba9a39c",
+                "shasum": ""
+            },
+            "conflict": {
+                "drupal/core": "<11 || >=12"
+            },
+            "type": "project",
+            "extra": {
+                "drupal-scaffold": {
+                    "file-mapping": {
+                        "[web-root]/sites/default/settings.php": {
+                            "mode": "replace",
+                            "path": "assets/initial.settings.php",
+                            "overwrite": false
+                        },
+                        "[web-root]/sites/default/settings.pantheon.php": "assets/settings.pantheon.php",
+                        "[web-root]/sites/default/default.services.pantheon.preproduction.yml": "assets/default.services.pantheon.preproduction.yml"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pantheon\\Integrations\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Add this project to any Drupal distribution based on drupal/core-composer-scaffold to enable it for use on Pantheon.",
+            "support": {
+                "issues": "https://github.com/pantheon-systems/drupal-integrations/issues",
+                "source": "https://github.com/pantheon-systems/drupal-integrations/tree/11.2.0"
+            },
+            "time": "2025-02-04T19:30:04+00:00"
         },
         {
             "name": "pear/archive_tar",
