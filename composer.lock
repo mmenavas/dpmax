@@ -2526,12 +2526,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/drainpipe.git",
-                "reference": "5dae8c7c4730cce1c82d56aac744e6e582923e77"
+                "reference": "4d254e5894af6e2a7515b04d7cc8c8b0cdc71f83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/5dae8c7c4730cce1c82d56aac744e6e582923e77",
-                "reference": "5dae8c7c4730cce1c82d56aac744e6e582923e77",
+                "url": "https://api.github.com/repos/Lullabot/drainpipe/zipball/4d254e5894af6e2a7515b04d7cc8c8b0cdc71f83",
+                "reference": "4d254e5894af6e2a7515b04d7cc8c8b0cdc71f83",
                 "shasum": ""
             },
             "require": {
@@ -2578,7 +2578,7 @@
                 "issues": "https://github.com/Lullabot/drainpipe/issues",
                 "source": "https://github.com/Lullabot/drainpipe/tree/issue-871-allow-pantheon-multidev-site-to-be-cloned-from-test-or-dev-site-if-a-live-site-is-not-set-up-yet"
             },
-            "time": "2025-09-16T20:31:21+00:00"
+            "time": "2025-09-16T20:48:38+00:00"
         },
         {
             "name": "masterminds/html5",
